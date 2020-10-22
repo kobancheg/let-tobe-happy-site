@@ -41,9 +41,8 @@ body {
 }
 
 .fullscreen_bg {
+  min-height: 100vh;
   background-image: url('../img/IMG_8889.PNG');
-  background-attachment: fixed;
-  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
