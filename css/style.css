@@ -34,14 +34,18 @@ body {
 }
 .fullscreen {
   min-height: 100vh;
-  background: url(../img/IMG_8888.PNG) top / cover no-repeat;
+  background-image: url(../img/IMG_8888.PNG);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
 }
 
 .fullscreen_bg {
-  background: url('../img/IMG_8889.PNG') top / cover no-repeat fixed;
+  background-image: url('../img/IMG_8889.PNG');
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   height: 100%;
