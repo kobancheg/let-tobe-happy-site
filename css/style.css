@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .fullscreen {
   min-height: 100vh;
   background-image: url(../img/IMG_8888.PNG);
@@ -41,10 +42,9 @@ body {
 }
 
 .fullscreen_bg {
-  min-height: 100vh;
   background-image: url('../img/IMG_8889.PNG');
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
