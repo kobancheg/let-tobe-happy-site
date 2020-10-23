@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Piazzolla&family=Roboto+Condensed&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Piazzolla&family=Roboto+Condensed&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   <link rel="stylesheet" href="css/style.css">
 
@@ -25,11 +25,10 @@
           <div class="burger-line third"></div>
           <div class="burger-line fourth"></div>
           <nav class="main-menu">
-            <a href="#">Пункт 1</a>
-            <a href="#">Пункт 2</a>
-            <a href="#">Пункт 3</a>
+            <a href="#modules">Ценность курса</a>
+            <a href="#base">Тариф «базовый»</a>
+            <a href="#advanced">Тариф «продвинутый»</a>
             <a href="#">Пункт 4</a>
-            <a href="#">Пункт 5</a>
           </nav>
         </div>
         <div class="hero__content">
@@ -48,7 +47,7 @@
       </div>
     </section>
 
-    <section class="fullscreen fullscreen_bg">
+    <section id="modules" class="fullscreen fullscreen_bg">
       <div class="fullscreen__body has-text-dark">
         <h2 class="h2__title has-text-centered">
           Ценность курса
@@ -137,7 +136,7 @@
       </div>
     </section>
 
-    <section class="fullscreen content__1">
+    <section id="base" class="fullscreen content__1">
       <div class="fullscreen__body">
         <h1 class="h2__title has-text-centered">Пакеты участия</h1>
         <h2 class="fullscreen_title has-text-centered">Тариф «базовый»</h2>
@@ -162,7 +161,7 @@
       </div>
     </section>
 
-    <section class="fullscreen content__2">
+    <section id="advanced" class="fullscreen content__2">
       <div class="fullscreen__body has-text-dark">
         <h1 class="h2__title has-text-centered">Пакеты участия</h1>
         <h2 class="fullscreen_title has-text-centered">Тариф «продвинутый»</h2>
@@ -190,6 +189,8 @@
       </div>
     </footer>
   </div>
+
+  <script src="./js/scripts.js"></script>
 </body>
 
 </html>

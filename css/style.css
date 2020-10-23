@@ -127,6 +127,10 @@ body {
   min-height: 100px;
 }
 
+.media + .media {
+  border-top: none;
+}
+
 .media-content {
   z-index: 1;
   padding-left: 40px;
