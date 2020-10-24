@@ -293,6 +293,8 @@ label {
 /* collapsible */
 .collapsible {
   background-color: hsl(0, 0%, 71%);
+  font-family: 'Piazzolla', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: white;
   cursor: pointer;
   padding: 12px;
