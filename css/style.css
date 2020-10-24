@@ -299,7 +299,7 @@ label {
   cursor: pointer;
   padding: 12px;
   width: 100%;
-  border: none;
+  border-bottom: 1px solid hsl(0, 0%, 86%);
   text-align: left;
   outline: none;
   display: flex;
