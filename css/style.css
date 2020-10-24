@@ -146,10 +146,6 @@ body {
   padding-left: 40px;
 }
 
-hr {
-  height: 2px;
-}
-
 .price {
   text-transform: uppercase;
   font-family: 'Roboto Condensed', sans-serif;
