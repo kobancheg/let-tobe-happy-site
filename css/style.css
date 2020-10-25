@@ -35,7 +35,7 @@ body {
 
 .fullscreen {
   min-height: 100vh;
-  background-image: url(../img/IMG_8888.PNG);
+  background-image: url('../img/IMG_8888.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -43,7 +43,7 @@ body {
 
 .fullscreen_bg {
   min-height: 100vh;
-  background-image: url('../img/IMG_8889.PNG');
+  background-image: url('../img/IMG_8889.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -68,7 +68,7 @@ body {
 .content__3 {
   min-height: 100vh;
   height: 100%;
-  background-image: url('../img/IMG_9018.webp');
+  background-image: url('../img/IMG_9018.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
