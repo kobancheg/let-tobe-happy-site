@@ -49,7 +49,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 .content__1 {
